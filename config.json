@@ -1,0 +1,8 @@
+{
+    "telegramApiKey": "1714209414:AAGdBGL-hNtnH6fSCR5kO4PMfiD93FGUcbA",
+    "botUsername": "TNKMentionBot",
+    "firebaseProjectName": "tnkproject-55316-default-rtdb",
+    "firebaseDatabaseSecret": "C642FyO7ING6aVLrkHt6dvGAUmfnOdMyeeWYf3r6",
+    "mentionsPerMessage": 20,
+    "enableRemoveInactiveMembersCommand": false
+}
