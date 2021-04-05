@@ -17,7 +17,7 @@ export default class User {
         if (!username) throw new SyntaxError('No username provided for user')
 
         this.id = id
-        this.username = username
+        this.username = "@"+username
     }
 
     get name(): string {
