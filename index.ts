@@ -1,6 +1,6 @@
 'use strict'
 
-import Telegraf from 'telegraf'
+import Telegraf from './telegraf'
 
 import SettingsRepository from './util/settingsRepository'
 import GroupRepository from './util/groupRepository'
@@ -47,4 +47,4 @@ bot.on('left_chat_member', onboardingController.userLeaveGroup)
 
 bot.startPolling()
 
-console.log('EveryoneBot has started!')
+console.log('TNKBot has started!')
