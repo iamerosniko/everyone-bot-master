@@ -9,7 +9,6 @@
     "start": "ts-node .",
     "start1": "nodemon -x ts-node . -e ts,json --unhandled-rejections=throw",
     "dev": "npm-run-all --parallel start:dev test:watch",
-    "heroku-postbuild": "jest --testPathPattern .*\\.test\\.ts",
     "heroku-cleanup": "ts-node . --unhandled-rejections=throw"
   },
   "heroku-run-build-script": true,
