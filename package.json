@@ -12,6 +12,7 @@
     "heroku-postbuild": "jest --testPathPattern .*\\.test\\.ts",
     "heroku-cleanup": "ts-node . --unhandled-rejections=throw"
   },
+  "heroku-run-build-script": true,
   "engines": {
     "node": ">=14.0.0"
   },
